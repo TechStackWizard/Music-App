@@ -1,0 +1,74 @@
+.border{
+    border: 2px solid  red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.logo-size{
+    width: 1.5rem;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #101010;
+}
+
+.bg-grey1{
+    background-color: #1f1f1f;
+}
+
+.minw,.minh{
+    min-width: fit-content;
+}
+.maxw,.maxh{
+    max-width: fit-content;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.heading{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.sub-head{
+    font-size: .7rem;
+}
+
+.l-btn{
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px 2px;
+    transition: transform .1s;
+}
