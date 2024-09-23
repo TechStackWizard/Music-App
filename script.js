@@ -20,7 +20,7 @@ function convertSecondsToTime(seconds) {
 
 async function getSongs(folder) {
     currfolder = folder;
-    let a = await fetch(`http://127.0.0.1:5501/${folder}/`);
+    let a = await fetch(`https://github.com/Iamanshul91/Music-App/tree/main/${folder}/`);
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
@@ -95,7 +95,7 @@ async function displayAlbums() {
         if (e.href.includes("/songs/")) {
             let folder = e.href.split("/").slice(-2)[1]
             // console.log(folder)
-            let a = await fetch(`http://127.0.0.1:5501/songs/${folder}/info.json`)
+            let a = await fetch(`https://github.com/Iamanshul91/Music-App/tree/main/songs/${folder}/info.json`)
             let response = await a.json();
             // console.log(response)
 
