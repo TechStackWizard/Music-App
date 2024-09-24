@@ -17,7 +17,7 @@ body {
 
 .container-left {
     /* width: 25vw; */
-    /* min-width: fit-content; */
+    min-width: fit-content;
 }
 
 .container-right {
